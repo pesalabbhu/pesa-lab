@@ -3,7 +3,7 @@ import { Link } from 'wouter';
 import { Menu, X, FlaskConical, Users, BookOpen, Newspaper, Microscope, TrendingDown, Phone } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
 import pesaLogo from '@assets/bg_rem_ppt_logo_1778087211376.png';
-import bhuLogo from '@assets/BHU_Logo_new_1778136945966.png';
+import bhuLogo from "@assets/my_new_logo.png";
 
 export function Navbar() {
   const [isScrolled, setIsScrolled] = useState(false);
