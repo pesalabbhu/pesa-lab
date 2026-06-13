@@ -30,7 +30,8 @@ export function Navbar() {
       <div className={`transition-all duration-300 overflow-hidden ${isScrolled ? 'h-0 opacity-0' : 'h-7 opacity-100'} bg-primary/95 backdrop-blur-sm`}>
         <div className="container mx-auto px-6 h-full flex items-center justify-between">
           <div className="flex items-center gap-2">
-            <img src={bhuLogo} alt="BHU" className="h-4 w-auto object-contain brightness-200 opacity-80" />
+            {/* 🎯 Removed brightness-200 and opacity filters so your actual logo graphics show up perfectly */}
+            <img src={bhuLogo} alt="BHU" className="h-5 w-auto object-contain" />
             <span className="text-[9px] font-mono tracking-widest text-primary-foreground/80 uppercase hidden sm:block">
               Department of Botany · Banaras Hindu University · Varanasi
             </span>
@@ -62,7 +63,7 @@ export function Navbar() {
             <img
               src={bhuLogo}
               alt="BHU"
-              className="hidden lg:block h-8 w-auto max-w-[80px] object-contain opacity-70 group-hover:opacity-90 transition-opacity"
+              className="hidden lg:block h-8 w-auto max-w-[80px] object-contain transition-opacity"
             />
           </Link>
 
