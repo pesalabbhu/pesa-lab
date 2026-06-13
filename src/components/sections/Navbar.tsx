@@ -20,7 +20,7 @@ export function Navbar() {
     { name: 'Research',   href: '#research',      icon: <Microscope className="w-3 h-3" /> },
     { name: 'The Stakes', href: '#impact',        icon: <TrendingDown className="w-3 h-3" /> },
     { name: 'Our Team',   href: '#team',          icon: <Users className="w-3 h-3" /> },
-    { name: 'Papers',     href: '#publications',  icon: <BookOpen className="w-3 h-3" /> },
+    { name: 'Publications',     href: '#publications',  icon: <BookOpen className="w-3 h-3" /> },
     { name: 'News',       href: '#news',          icon: <Newspaper className="w-3 h-3" /> },
   ];
 
