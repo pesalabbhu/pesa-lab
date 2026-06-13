@@ -26,8 +26,6 @@ export function Navbar() {
 
   return (
     <header className="fixed top-0 left-0 right-0 z-50">
-      {/* Green Slim Institution Bar Removed Completely for a Clean Look */}
-
       {/* Main navbar wrapper */}
       <div className={`transition-all duration-300 border-b ${
         isScrolled
@@ -46,23 +44,15 @@ export function Navbar() {
             />
             
             {/* Elegant Minimal Divider */}
-            <div className="w-[1px] h-10 bg-border/80" />
+            <div className="hidden lg:block w-[1px] h-10 bg-border/80" />
             
-            {/* Institutional Logos & Beautiful Full-Length Text Stacking */}
-            <div className="flex items-center gap-3">
+            {/* Institutional Logo Area (Increased Size, Text Removed) */}
+            <div className="flex items-center">
               <img
                 src={bhuLogo}
                 alt="BHU"
-                className="h-9 w-auto max-w-[50px] object-contain opacity-90"
+                className="hidden lg:block h-14 w-auto object-contain transition-opacity"
               />
-              <div className="flex flex-col justify-center">
-                <span className="text-[10px] font-bold tracking-[0.15em] text-foreground uppercase leading-tight font-sans">
-                  Banaras Hindu University
-                </span>
-                <span className="text-[9px] font-medium tracking-[0.12em] text-muted-foreground uppercase mt-0.5 font-sans">
-                  Department of Botany
-                </span>
-              </div>
             </div>
           </Link>
 
