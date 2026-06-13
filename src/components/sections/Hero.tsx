@@ -43,8 +43,6 @@ export function Hero() {
             transition={{ duration: 0.7 }}
             className="inline-flex items-center gap-3 px-5 py-2.5 rounded-xl bg-primary/5 border border-primary/15 backdrop-blur-md mb-8 shadow-sm"
           >
-            {/* Live Indicator Dot */}
-            <span className="w-2 h-2 rounded-full bg-primary animate-pulse shrink-0" />
             
             {/* Two-Line Architecture with Full-Length Text */}
             <div className="flex flex-col items-center text-center">
