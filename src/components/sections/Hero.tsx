@@ -35,14 +35,26 @@ export function Hero() {
 
       <div className="container mx-auto px-6 relative z-10">
         <div className="max-w-4xl mx-auto text-center">
+          
+          {/* Beautifully Redesigned Institutional Badge */}
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.7 }}
-            className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-primary/8 border border-primary/20 backdrop-blur-md mb-8"
+            className="inline-flex items-center gap-3 px-5 py-2.5 rounded-xl bg-primary/5 border border-primary/15 backdrop-blur-md mb-8 shadow-sm"
           >
-            <span className="w-2 h-2 rounded-full bg-primary animate-pulse" />
-            <span className="text-xs font-mono tracking-widest text-primary uppercase">Banaras Hindu University · Dept. of Botany</span>
+            {/* Live Indicator Dot */}
+            <span className="w-2 h-2 rounded-full bg-primary animate-pulse shrink-0" />
+            
+            {/* Two-Line Architecture with Full-Length Text */}
+            <div className="flex flex-col items-center text-center">
+              <span className="text-xs font-mono font-bold tracking-[0.15em] text-primary uppercase leading-tight">
+                Banaras Hindu University
+              </span>
+              <span className="text-[10px] font-mono font-medium tracking-[0.12em] text-muted-foreground uppercase mt-1">
+                Department of Botany
+              </span>
+            </div>
           </motion.div>
 
           <motion.h1
