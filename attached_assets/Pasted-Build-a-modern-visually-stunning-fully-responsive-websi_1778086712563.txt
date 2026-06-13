@@ -1,0 +1,163 @@
+Build a modern, visually stunning, fully responsive website for a scientific research lab named:
+
+"Plant Engineering and Stress Adaptomics Lab (PESA Lab)"
+Based at Banaras Hindu University, India.
+
+🎯 Core Goal:
+Create a world-class, highly interactive lab website that showcases cutting-edge research in plant stress biology, adaptomics, and crop resilience. The website should feel alive, dynamic, and futuristic—not like a static academic page.
+
+---
+
+🧠 DESIGN STYLE:
+- Dark theme with green/biotech accents (neon green, teal, soft gradients)
+- Glassmorphism + soft shadows + glowing effects
+- Smooth animations (Framer Motion or CSS animations)
+- Scroll-triggered transitions
+- Minimal but impactful typography (Inter, Poppins, or similar)
+- Fully mobile responsive
+
+---
+
+🔥 HERO SECTION (CRITICAL):
+- Fullscreen animated hero section
+- Tagline:
+  "Decoding Stress Memory. Engineering Resilient Crops."
+- Subtext explaining plant stress adaptomics
+- Animated background:
+  - DNA helix OR plant growing OR molecular network animation
+- CTA buttons:
+  - "Explore Research"
+  - "Join the Lab"
+
+---
+
+🧬 MAIN SECTIONS:
+
+1. ABOUT LAB
+- Mission, vision, and research philosophy
+- Highlight: stress memory, prion-like proteins, adaptomics
+
+2. RESEARCH THEMES (Interactive Cards)
+- Stress Memory & Prion-like Proteins
+- Thermomorphogenesis (PIF4 pathway)
+- Epigenetics & Chromatin Regulation
+- Crop Engineering & Resilience
+Each card:
+- Hover animation
+- Expand to show details, diagrams, and key genes
+
+---
+
+3. INTERACTIVE “STRESS MEMORY EXPLORER” (Unique Feature)
+- User selects:
+  Stress type (heat, drought, salt)
+- Show:
+  → signaling pathway
+  → genes involved
+  → protein aggregation (prion-like behavior)
+  → phenotypic outcome
+Use animations and flow diagrams
+
+---
+
+4. DATA & TOOLS
+- RNA-seq datasets
+- Protocols (downloadable)
+- Bioinformatics pipelines
+- GitHub integration (mock if needed)
+
+---
+
+5. TEAM SECTION (Modern Cards)
+- Profile image
+- Name, role
+- Research interests
+- Skills tags (e.g., Molecular Biology, Bioinformatics)
+- Hover effect with more info
+
+---
+
+6. PUBLICATIONS
+- Styled list with:
+  - Title
+  - Authors
+  - Journal
+  - Year
+  - DOI link
+- Add filter/search functionality
+
+---
+
+7. NEWS / UPDATES (Dynamic Feed)
+- Conferences
+- Achievements
+- Grants
+- Use card layout with date and tags
+
+---
+
+8. GALLERY
+- Masonry grid layout
+- Lightbox view on click
+- Hover zoom effect
+
+---
+
+9. COLLABORATION / JOIN US
+- Opportunities:
+  - PhD, internships, postdoc
+- Contact form with validation
+- Call-to-action design
+
+---
+
+10. FOOTER
+- Social links
+- Contact info
+- Quick navigation
+- Copyright
+
+---
+
+⚙️ TECH STACK:
+- Frontend: React + Tailwind CSS
+- Animations: Framer Motion
+- Icons: Lucide React
+- Optional: Three.js for 3D DNA animation
+- Use clean component-based architecture
+
+---
+
+✨ ADVANCED FEATURES:
+- Smooth scrolling navigation
+- Sticky navbar with blur effect
+- Dark/light toggle (optional)
+- Page loading animation
+- Micro-interactions on hover/click
+- SEO-friendly structure
+
+---
+
+📱 RESPONSIVENESS:
+- Must look perfect on mobile, tablet, desktop
+
+---
+
+📦 BONUS:
+- Add placeholder scientific illustrations (SVG-based)
+- Use dummy but realistic scientific content
+- Ensure fast performance and clean UI
+
+---
+
+🎯 OUTPUT:
+- Full working React project
+- Well-structured components
+- Clean, readable code
+- Ready to deploy
+
+---
+
+IMPORTANT:
+Make the site feel like a premium international research lab website (like MIT/Max Planck level), not a basic academic page.
+Focus heavily on visual storytelling, animations, and interactivity.
